@@ -2,6 +2,7 @@
   "name": "fontend",
   "version": "0.1.0",
   "private": true,
+  "main": "index.js",
   "dependencies": {
     "@atlaskit/button": "^17.2.0",
     "@atlaskit/datetime-picker": "^13.0.12",
