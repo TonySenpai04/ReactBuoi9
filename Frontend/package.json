@@ -1,0 +1,55 @@
+{
+  "name": "fontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@atlaskit/button": "^17.2.0",
+    "@atlaskit/datetime-picker": "^13.0.12",
+    "@atlaskit/icon": "^22.0.0",
+    "@atlaskit/input": "^8.0.9",
+    "@atlaskit/textfield": "^6.0.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.7",
+    "cors": "^2.8.5",
+    "json-server": "^1.0.0-alpha.23",
+    "mysql": "^2.18.1",
+    "react": "^18.2.0",
+    "react-datetime-picker": "^5.6.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  
+  },
+  "scripts": {
+    "start": "concurrently \"react-scripts start\" \"cd ../Backend && nodemon server\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "dev": "react-scripts start"
+  },
+ 
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "proxy": "http://localhost:3001"
+}
